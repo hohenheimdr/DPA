@@ -6,7 +6,9 @@ works with QT creator 4.0.2 and QT 5.7.0
 you can download it here:
 https://download.qt.io/archive/qt/5.7/5.7.0/
 
-how to install Ubuntu (tested for 16.04 and 18.04):
+installation details see below.
+
+Ubuntu (tested for 16.04 and 18.04):
 
 go to your download folder:
 
