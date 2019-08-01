@@ -7,25 +7,31 @@ you can download it here:
 https://download.qt.io/archive/qt/5.7/5.7.0/
 
 how to install Ubuntu (tested for 16.04 and 18.04):
+
 go to your download folder:
+
 $ chmod +x qt-opensource-linux-x64-5.7.0.run 
+
 $ ./qt-opensource-linux-x64-5.7.0.run
+
 follow the instructions of the installation guide
+
 download sourcecode and datasets (best to your homefolder):
+
 $ git clone https://github.com/hohenheimdr/DPA.git
 
 open project file of DPA at
  DPA/DPA/DPA.pro
 click "yes" in the pop up
+
 change Build directory if needed under Projects ->Build directory
-build project by clicking 
 
-install dependencies: 
-OpenCV
-QT5 /QT Creator
+build and run the project by clicking the "run" button
+
+if neccessary install dependencies: 
+OpenCV - https://opencv.org/
 
 
-open project file in QT creator and run the application
 
 
 
