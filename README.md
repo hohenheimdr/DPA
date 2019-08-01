@@ -35,7 +35,7 @@ OpenCV - https://opencv.org/
 Windows (just tested under Windows 10):
 install qt 5.7.0 on your system
 https://download.qt.io/archive/qt/5.7/5.7.0/
-install visual studio 
+install visual studio with c/c++ support
 https://visualstudio.microsoft.com/de/downloads/?rr=https%3A%2F%2Fwww.google.com%2F
 
 
