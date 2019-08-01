@@ -486,7 +486,7 @@ void save_window::on_btn_start_clicked()
     int vec_elements;
 
     targetFolder = (QFileDialog::getExistingDirectory(this, tr("Save to Directory..."),
-                                                             "/home/driehle/Masterarbeit/MA-Datensatz",
+                                                             "~/DPA/datasets",
                                                              QFileDialog::ShowDirsOnly
                                                              | QFileDialog::DontResolveSymlinks));
 

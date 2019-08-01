@@ -98,7 +98,7 @@ void main_window::on_btn_Quit_clicked()
 void main_window::on_btn_OpenImage_clicked()
 {
    QString tmpPath = QFileDialog::getOpenFileName(this, tr("Open Image"),
-                                                    "/home/driehle/Masterarbeit/MA-Datensatz", tr("Image Files (*.png *.jpg *.bmp *.tif)"));
+                                                    "~/DPA/datasets", tr("Image Files (*.png *.jpg *.bmp *.tif)"));
 
     if(tmpPath != NULL)
     {
@@ -809,7 +809,7 @@ void main_window::on_btn_save_filter_binary_clicked()
                                         config::Filter.ColorChangeType,
                                         config::Filter.invert);
 
-    cv::imwrite("/home/driehle/Masks/" + img_list.allImages[indexOfCurrentImage].ImageName.toStdString() + "_mask.png", imgValues.Binary);
+    cv::imwrite("~/DPA/datasets/Masks/" + img_list.allImages[indexOfCurrentImage].ImageName.toStdString() + "_mask.png", imgValues.Binary);
 
 ///Globalen Workspace über menu definieren... Analyse Ordner oder so..------------------------------------------------------------------------------------------
 }

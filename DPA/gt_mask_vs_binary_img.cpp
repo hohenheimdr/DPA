@@ -11,7 +11,7 @@ GTMvsBimg::GTMvsBimg(QWidget *parent) :
     index_Binary_Img = 0;
     invert = false;
 
-    QString tmpPath = QFileDialog::getOpenFileName(this, tr("Open GT_Mask Images"), "/home/driehle/Masterarbeit/MA-Datensatz", tr("Image Files (*.png *.jpg *.bmp *.tif)"));
+    QString tmpPath = QFileDialog::getOpenFileName(this, tr("Open GT_Mask Images"), "~/DPA/datasets", tr("Image Files (*.png *.jpg *.bmp *.tif)"));
     if(tmpPath != NULL)
     {
         GT_Mask_list.build_img_library(tmpPath,false,true);
@@ -27,7 +27,7 @@ GTMvsBimg::GTMvsBimg(QWidget *parent) :
         }
         ui->txtBrw_gtMask->setText(GT_Mask_list.allImages[index_GT_Mask].ImageName);
 
-        tmpPath = QFileDialog::getOpenFileName(this, tr("Open Binary Images"), "/home/driehle/Masterarbeit/MA-Datensatz", tr("Image Files (*.png *.jpg *.bmp *.tif)"));
+        tmpPath = QFileDialog::getOpenFileName(this, tr("Open Binary Images"), "~/DPA/datasets", tr("Image Files (*.png *.jpg *.bmp *.tif)"));
         if(tmpPath != NULL)
         {
             Binary_Img_list.build_img_library(tmpPath,false,true);
@@ -281,7 +281,7 @@ void GTMvsBimg::on_btn_save_csv_clicked()
         QString targetFolder;
 
         targetFolder = (QFileDialog::getExistingDirectory(this, tr("Save to Directory..."),
-                                                                 "/home/driehle/Masterarbeit/MA-Datensatz",
+                                                                 "~/DPA/datasets",
                                                                  QFileDialog::ShowDirsOnly
                                                                  | QFileDialog::DontResolveSymlinks));
 
