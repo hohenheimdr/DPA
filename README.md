@@ -2,8 +2,10 @@
 Digital Plant Analyzer
 
 
-works with QT5
-https://doc.qt.io/qt-5/
+works with QT creator 4.0.2
+https://download.qt.io/archive/qtcreator/4.0/4.0.2/
+
+
 
 how to install Ubuntu:
 
