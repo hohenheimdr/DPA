@@ -5,7 +5,8 @@ Digital Plant Analyzer
 works with QT creator 4.0.2
 https://download.qt.io/archive/qtcreator/4.0/4.0.2/
 
-
+QT 5.7.0
+https://download.qt.io/archive/qt/5.7/5.7.0/
 
 how to install Ubuntu:
 
