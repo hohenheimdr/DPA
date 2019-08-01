@@ -34,13 +34,14 @@ if neccessary install dependencies:
 OpenCV - https://opencv.org/
 
 
-Windows (just tested under Windows 10):
+Windows (not tested until now):
 install qt 5.7.0 on your system
 https://download.qt.io/archive/qt/5.7/5.7.0/
 install visual studio with c/c++ support
-https://visualstudio.microsoft.com/de/downloads/?rr=https%3A%2F%2Fwww.google.com%2F
+msvc2013 compiler
+https://www.microsoft.com/en-us/download/details.aspx?id=40760
 
-
+download sourcecode and run project
 ...more to follow
 
 
