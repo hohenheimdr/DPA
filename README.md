@@ -42,8 +42,13 @@ msvc2013 compiler
 https://www.microsoft.com/en-us/download/details.aspx?id=40760
 
 download sourcecode and run project
-...more to follow
 
+if you use the code in research, please consider citing the following paper:
+
+Robust index-based semantic plant/background segmentation for RGB-images
+D Riehle, D Reiser, HW Griepentrog - Computers and Electronics in Agriculture, 2020
+
+https://scholar.google.com/citations?view_op=view_citation&hl=de&user=KdxvfVsAAAAJ&citation_for_view=KdxvfVsAAAAJ:8k81kl-MbHgC
 
 
 
